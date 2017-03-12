@@ -61,7 +61,7 @@ void sending()
   Serial.println("Baglanti:");
   cevap_oku();
 
-  String str = "GET http://api.thingspeak.com/update?api_key=xxxxxxxxxxxxxxxxxxxxxxx=";
+  String str = "GET http://api.thingspeak.com/update?api_key= xx_Your_Api_key_xx =";
   str += (int (temp)); // yollanacak datanın gideceği server adresi ve += ile String devamı
 
   cell.println(str);// Server data transveri için modüle yükleme yapıldı
